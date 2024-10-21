@@ -68,7 +68,8 @@ def main():
 
         if play_again != "Y":
             break
-   print(f" Game over, your final balance is {balance}")
+            
+    print(f" Game over, your final balance is ₹{balance}")
 
 
 if __name__ == '__main__':
